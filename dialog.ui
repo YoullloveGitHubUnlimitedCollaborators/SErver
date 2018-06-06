@@ -71,7 +71,7 @@
      <item>
       <widget class="QLineEdit" name="lePort">
        <property name="text">
-        <string>1234</string>
+        <string>7777</string>
        </property>
       </widget>
      </item>
