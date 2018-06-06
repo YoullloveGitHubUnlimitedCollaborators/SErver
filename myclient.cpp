@@ -185,7 +185,7 @@ void MyClient::doSendUsersOnline() const
     QString s;
     for (int i = 0; i < l.length(); ++i)
         if (l.at(i) != _name)
-            s += l.at(i)+(QString)",";
+          s += l.at(i)+(QString)",";
     s.remove(s.length()-1, 1);
     out << s;
     out.device()->seek(0);
